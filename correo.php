@@ -7,6 +7,8 @@ $contenido = htmlspecialchars($_POST['c'],ENT_QUOTES,'UTF-8');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require 'vendor/autoload.php';
+
 try
     {
         $mail = new PHPMailer();
