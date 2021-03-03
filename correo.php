@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-/*try
+try
     {
         $mail = new PHPMailer();
         $mail->IsSMTP();
@@ -50,9 +50,9 @@ require 'vendor/autoload.php';
         echo 1;
 } catch (Exception $e) {
         echo 0;
-}*/
+}
 
-$sender = 'richardefio879@gmail.com';
+/*$sender = 'richardefio879@gmail.com';
 $senderName = 'Richard Efio Rivas';
 
 // Replace recipient@example.com with a "To" address. If your account
@@ -119,6 +119,6 @@ try {
 } catch (Exception $e) {
     echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
 }
-
+*/
     
 ?>
