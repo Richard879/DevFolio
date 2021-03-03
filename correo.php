@@ -4,7 +4,8 @@ $from_name = htmlspecialchars($_POST['s'],ENT_QUOTES,'UTF-8');
 $to = htmlspecialchars($_POST['e'],ENT_QUOTES,'UTF-8');
 $contenido = htmlspecialchars($_POST['c'],ENT_QUOTES,'UTF-8');
 
-require "PHPMailer/PHPMailerAutoload.php";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 try
     {
