@@ -67,12 +67,12 @@ $passwordSmtp = 'BNvipKjXW+SLF5s8njw25mhtPom+6h6Gy4YOqJjjgr2a';
 
 // Specify a configuration set. If you do not want to use a configuration
 // set, comment or remove the next line.
-$configurationSet = 'ConfigSet';
+//$configurationSet = 'ConfigSet';
 
 // If you're using Amazon SES in a region other than US West (Oregon),
 // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
 // endpoint in the appropriate region.
-$host = 'ec2-18-218-213-163.us-east-2.compute.amazonaws.com';
+$host = 'email-smtp.us-east-2.amazonaws.com';
 $port = 587;
 
 // The subject line of the email
